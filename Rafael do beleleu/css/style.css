@@ -1,0 +1,13 @@
+.titulo_principal {
+    color: rgb(250, 192, 1);
+    text-align: center; font-size: 80px; 
+    -webkit-text-stroke-color: rgb(0, 0, 0); 
+    -webkit-text-stroke-width: 1px;
+}
+.Primeiro_subtitulo{
+    color: rgb(250, 192, 1);
+    text-align: center; font-size: 80px; 
+    -webkit-text-stroke-color: rgb(0, 0, 0); 
+    -webkit-text-stroke-width: 1px;
+}
+
