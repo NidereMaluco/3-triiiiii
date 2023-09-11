@@ -1,0 +1,49 @@
+.titulo_principal {
+    color: #ff0000;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #ff0000, #ff0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+    animation: neonGlow 3.2s linear infinite;
+}
+    .body{
+        background-color:#000000
+    }
+.Primeiro_subtitulo {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Verdana', sans-serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    animation: textSlide 2s ease-in-out infinite alternate;
+}
+
+@keyframes neonGlow {
+    0% {
+        filter: brightness(150%);
+    }
+    50% {
+        filter: brightness(200%);
+        text-shadow: 0 0 10px #ffc400, 0 0 20px #ffffff, 0 0 30px #ffffff;
+    }
+    100% {
+        filter: brightness(150%);
+
+
+}
+    
+}
+
+@keyframes textSlide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(5000px);
+    }
+}
